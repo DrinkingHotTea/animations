@@ -71,6 +71,7 @@ body {
     padding: 20px 0px;
     width: 200px;
     border-radius: 10px;
+    transition: all 0.5s;
 }
 
 .hover__block__button:hover {
@@ -129,6 +130,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(1):hover::after {
     animation: trans1 0.4s forwards;
@@ -144,6 +146,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(2):hover::after {
     animation: trans1 0.4s forwards;
@@ -159,6 +162,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(3):hover::after {
     animation: trans1 0.4s forwards;
@@ -174,6 +178,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(4):hover::after {
     animation: trans1 0.4s forwards;
@@ -189,6 +194,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(5):hover::after {
     animation: trans1 0.4s forwards;
@@ -204,6 +210,7 @@ body {
     position: absolute;
     top: 15px;
     right: 50px;
+    animation: trans2 0.4s;
 }
 .hidden__block__list li:nth-child(6):hover::after {
     animation: trans1 0.4s forwards;
@@ -224,6 +231,15 @@ body {
     }
     100% {
         transform: rotate(-20deg);
+    }
+}
+
+@keyframes trans2 {
+    0% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
 
